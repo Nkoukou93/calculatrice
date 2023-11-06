@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+table{
+    background-color: purple;
+  }
+  tr{
+    background-color: black;
+  }
+  td{
+    background-color: #f44336;
+  }
+  .formstyle
+  {
+  width: 300px;
+  height: 330px;
+  margin: 20px auto;
+  border: 3px solid skyblue;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(28, 6, 91);
+  }
+  
+  h1 {
+      text-align: center;
+      padding: 23px;
+      background-color: skyblue;
+      color: white;
+      }
+  input:hover
+  {
+  background-color: green;
+  }
+      
+  *{
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  .btn{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: rgb(12, 163, 25);
+  color: white;
+  
+  }
+  
+  
+  .textview{
+  width: 223px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  background-color: lightgreen;
+  }	
