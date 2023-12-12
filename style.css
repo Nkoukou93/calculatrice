@@ -1,6 +1,8 @@
+@media only screen and (max-width: 767px) {
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 table{
     background-color: purple;
@@ -10,6 +12,7 @@ table{
   }
   td{
     background-color: #f44336;
+    border-radius: 25px;
   }
   .formstyle
   {
@@ -17,7 +20,7 @@ table{
   height: 330px;
   margin: 20px auto;
   border: 3px solid skyblue;
-  border-radius: 5px;
+  border-radius: 25px;
   padding: 20px;
   text-align: center;
   background-color: rgb(28, 6, 91);
@@ -44,7 +47,7 @@ table{
   width: 50px;
   height: 50px;
   font-size: 25px;
-  margin: 2px;
+  margin: 10px;
   cursor: pointer;
   background-color: rgb(12, 163, 25);
   color: white;
@@ -59,3 +62,141 @@ table{
   padding: 5px;
   background-color: lightgreen;
   }	
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  /*affichage tablette*/
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    background-color: purple;
+  
+  }
+  tr{
+    background-color: black;
+  }
+  td{
+    background-color: #f44336;
+    border-radius: 25px;
+    margin-top: 50px;
+  }
+  .formstyle
+  {
+  width: 70%;
+  height: 70%;
+  margin: 20px auto;
+  border: 3px solid skyblue;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(28, 6, 91);
+  }
+  
+  h1 {
+      text-align: center;
+      padding: 23px;
+      background-color: skyblue;
+      color: white;
+      }
+  input:hover
+  {
+  background-color: green;
+  }
+      
+  *{
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  .btn{
+  width: 100px;
+  height: 100px;
+  font-size: 25px;
+  margin: 15px;
+  cursor: pointer;
+  background-color: rgb(12, 163, 25);
+  color: white;
+  
+  }
+  
+  
+  .textview{
+  width: 223px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  background-color: lightgreen;
+  }	
+
+
+}
+@media screen and (min-width: 1024px) {
+  /*affichage Desktop*/
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    background-color: purple;
+  }
+  tr{
+    background-color: black;
+  }
+  td{
+    background-color: #f44336;
+    border-radius: 25px;
+  }
+  .formstyle
+  {
+  width: 300px;
+  height: 330px;
+  margin: 20px auto;
+  border: 3px solid skyblue;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(28, 6, 91);
+  }
+  
+  h1 {
+      text-align: center;
+      padding: 23px;
+      background-color: skyblue;
+      color: white;
+      }
+  input:hover
+  {
+  background-color: green;
+  }
+      
+  *{
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  .btn{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgb(12, 163, 25);
+  color: white;
+  
+  }
+  
+  
+  .textview{
+  width: 223px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  background-color: lightgreen;
+  }	
+
+}
